@@ -64,6 +64,18 @@ Colors! :p
 /*------------------------------------------------------------------
 Sections :S
 -------------------------------------------------------------------*/
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
 
 header {
   width: 100%;
@@ -188,6 +200,8 @@ button.white:hover {
   width: 100%;
   padding-top: 5rem;
   padding-bottom: 7rem;
+  padding-right: 15px;
+  padding-left: 15px;
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -448,6 +462,35 @@ Make it purdy :l
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+/*------------------------------------------------------------------
+Font Awesome :E
+-------------------------------------------------------------------*/
+
+.social-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.social-list a {
+  margin-right: 1rem;
+}
+
+.social-list [class*=icon-] {
+  margin: 0;
+}
+
+.horizontal li {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer>.column>div {
+  flex-direction: column;
+}
+.footer .widget {
+    margin-bottom: 3rem;
 }
 
 /*------------------------------------------------------------------
